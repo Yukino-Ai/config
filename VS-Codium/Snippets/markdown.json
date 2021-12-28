@@ -1,0 +1,62 @@
+{
+  "Link item": {
+    "prefix": "link",
+    "body": ["[🔗 $2]($1)"],
+    "description": "General links"
+  },
+  "Video item": {
+    "prefix": "video",
+    "body": ["[🎥 $2]($1)"],
+    "description": "Videos"
+  },
+  "Documentation item": {
+    "prefix": "docs",
+    "body": ["[📝 $2]($1)"],
+    "description": "Documentation; also other articles like blog posts"
+  },
+  "Social media item": {
+    "prefix": "social",
+    "body": ["[👥 $2]($1)"],
+    "description": "Social media"
+  },
+  "Author item": {
+    "prefix": "author",
+    "body": ["[👤 $2]($1)"],
+    "description": "Author(s)"
+  },
+  "aside quote": {
+    "prefix": "aside",
+    "body": ["> 📑 $1"],
+    "description": "Tangential comment"
+  },
+  "GitHub": {
+    "prefix": "github",
+    "body": ["[🐙🐱 $2]($1)"],
+    "description": "GitHub repo"
+  },
+  "Check point": {
+    "prefix": "check point",
+    "body": ["[🔖 $2]($1)"],
+    "description": "Check point"
+  },
+  "Image": {
+    "prefix": "image",
+    "body": ["![$2]($1)"],
+    "description": "Image"
+  },
+  "Stack Exchange": {
+    "prefix": "so",
+    "body": ["[🥞 $2]($1)"],
+    "description": "Stack overflow"
+  },
+  "Quanta Magazine": {
+    "prefix": "quanta",
+    "body": ["[⚛ $2]($1)"],
+    "description": "Quanta Magazine"
+  },
+  "Book": {
+    "prefix": "book",
+    "body": ["[📔 $2]($1)"],
+    "description": "Book"
+  }
+}

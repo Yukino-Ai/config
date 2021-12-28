@@ -1,0 +1,7 @@
+{
+  "Bold math color": {
+    "prefix": "bmColor",
+    "body": ["\bmColor{$1}{$2}"],
+    "description": "Bold math with color"
+  }
+}
