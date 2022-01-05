@@ -38,7 +38,7 @@
         "-interaction=nonstopmode",
         "-file-line-error",
         "-pdf",
-        "-aux-directory=./out",
+        "-aux-directory=./out-%DOCFILE%",
         "-output-directory=./",
         "%DOC%"
       ]
@@ -50,7 +50,7 @@
         "-synctex=1",
         "-interaction=nonstopmode",
         "-file-line-error",
-        "-aux-directory=./out",
+        "-aux-directory=./out-%DOCFILE%",
         "-output-directory=./",
         "%DOC%"
       ]
@@ -60,5 +60,8 @@
     "editor.defaultFormatter": "James-Yu.latex-workshop"
   },
   "workbench.colorTheme": "SynthWave '84",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "terminal.ansiGreen": "#A4345D"
+  }
 }
