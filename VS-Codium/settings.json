@@ -62,11 +62,12 @@
   "workbench.colorTheme": "SynthWave '84",
   "window.zoomLevel": 1,
   "workbench.colorCustomizations": {
-    "terminal.ansiGreen": "#A4345D"
+    "terminal.ansiGreen": "#224634"
   },
   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
   "workbench.startupEditor": "none",
   "git.ignoreMissingGitWarning": true,
   "workbench.sideBar.location": "right",
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontFamily": "caskaydiaCove Nerd Font"
 }
