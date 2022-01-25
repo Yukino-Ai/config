@@ -63,5 +63,10 @@
   "window.zoomLevel": 1,
   "workbench.colorCustomizations": {
     "terminal.ansiGreen": "#A4345D"
-  }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "workbench.startupEditor": "none",
+  "git.ignoreMissingGitWarning": true,
+  "workbench.sideBar.location": "right",
+  "editor.wordWrap": "on"
 }

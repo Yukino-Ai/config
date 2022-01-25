@@ -24,3 +24,10 @@ Add package to environment
 mamba activate {environment name}
 mamba install {list of packages separated by spaces}
 ```
+
+Export environment
+
+```
+mamba activate {environment name}
+mamba env export > {file-name.yml}
+```
