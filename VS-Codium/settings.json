@@ -62,7 +62,14 @@
   "workbench.colorTheme": "SynthWave '84",
   "window.zoomLevel": 1,
   "workbench.colorCustomizations": {
-    "terminal.ansiGreen": "#224634"
+    "terminal.ansiGreen": "#7A942E",
+    "terminal.ansiBlue": "#1B294B",
+    "terminal.ansiBrightGreen": "#6B9362",
+    "terminal.ansiBrightBlue": "#5D8CAE",
+    "terminal.foreground": "#FCC9B9",
+    "terminalCursor.foreground": "#A4345D",
+    "terminal.selectionBackground": "#FFB61E",
+    "terminal.ansiRed": "#DB5A6B"
   },
   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
   "workbench.startupEditor": "none",
