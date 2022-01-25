@@ -33,3 +33,6 @@ fi
 export LESS="$LESS -R -Q"
 
 eval "$(pyenv init --path)"
+
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
