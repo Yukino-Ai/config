@@ -44,9 +44,9 @@
         "name": "Command Prompt"
       },
       {
-        "colorScheme": "Campbell",
+        "colorScheme": "Distant Snow",
         "font": {
-          "face": "Cascadia Code"
+          "face": "CaskaydiaCove Nerd Font"
         },
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "hidden": false,
@@ -108,6 +108,29 @@
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
+    },
+    {
+      "background": "#000000",
+      "black": "#0C0C0C",
+      "blue": "#003171",
+      "brightBlack": "#4D646C",
+      "brightBlue": "#317589",
+      "brightCyan": "#5D8CAE",
+      "brightGreen": "#819C8B",
+      "brightPurple": "#89729E",
+      "brightRed": "#FFB3A7",
+      "brightWhite": "#FFFAFA",
+      "brightYellow": "#F9F1A5",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#006C7F",
+      "foreground": "#FFFFFF",
+      "green": "#5B8930",
+      "name": "Distant Snow",
+      "purple": "#5D3F6A",
+      "red": "#C93756",
+      "selectionBackground": "#FFFFFF",
+      "white": "#C6C2B6",
+      "yellow": "#FFB61E"
     },
     {
       "background": "#282C34",
