@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -66,7 +66,7 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    PS1="\[]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\]$PS1"
     ;;
 *)
     ;;
@@ -139,3 +139,20 @@ eval "$(pyenv init -)"
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+alias rw="cd /mnt/c/r/"
+alias rl="cd ~/r/"
+alias c="codium"
+
+# Mamba short-cuts
+# https://stackoverflow.com/a/49183565
+# https://stackoverflow.com/a/41274348
+# https://stackoverflow.com/a/15206888
+
+exp() { mamba env export --from-history | grep -v "^prefix: " > $1; }
+
+# XLauncher
+# https://sqmao.medium.com/using-wsl2-to-set-up-a-spyder-ide-on-windows-10-3734139b554
+
+export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
+export LIBGL_ALWAYS_INDIRECT=1
